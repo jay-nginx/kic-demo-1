@@ -4,6 +4,7 @@ KIC Demo - Rate Limiting, Access Control List, API Key Authentication &amp; Head
 Pre-req:
 
 Have a working K8s Environment ( I used Docker Desktop installed on my local macintosh laptop )
+
 Have an Ingress Controller image built and available for Helm to pull from ( I created an nginx-plus-ingress image on my local machine, did not push it to a cloud based repository )
 
 Install KIC via HELM:
