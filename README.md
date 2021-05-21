@@ -9,7 +9,7 @@ Have an Ingress Controller image built and available for Helm to pull from ( I c
 
 Install KIC via HELM:
 
-helm install my-release nginx-stable/nginx-ingress --set controller.image.repository=nginx-plus-ingress --set controller.nginxplus=true --set controller.enableSnippets=true --set controller.enablePreviewPolicies=true
+	helm install my-release nginx-stable/nginx-ingress --set controller.image.repository=nginx-plus-ingress --set controller.nginxplus=true --set controller.enableSnippets=true --set controller.enablePreviewPolicies=true
 
 
 Deploy the Demo, Tea/Coffee Application:
